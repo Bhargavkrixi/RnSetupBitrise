@@ -70,7 +70,7 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="Step One 123">
             React Native <Text style={styles.highlight}>Bitrise</Text> Seup.
           </Section>
           <Section title="See Your Changesssss">
