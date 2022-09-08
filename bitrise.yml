@@ -6,6 +6,17 @@
 - firebase-app-distribution@0:
     inputs:
     - firebase_token: $FirebaseKey
-    - app_path: $BITRISE_DEPLOY_DIR/app-release-bitrise-signed.apk
+    - app_path: $BITRISE_DEPLOY_DIR/android/app/build/output/app-release-bitrise-signed.apk
     - app: 1:327211328386:android:48674b0ef0bd7d6786659b
     - testers: bhargav.simejiya@krixi.com # optional
+
+# - xcode-archive@6:
+#     inputs:
+#     - distribution_method: development
+#     - scheme: # your scheme goes here
+#     - automatic_code_signing: api-key
+# - firebase-app-distribution@0:
+#     inputs:
+#     - firebase_token: $FIREBASE_TOKEN
+#     - app: # your app ID from Firebase
+#     - testers: bhargav.simejiya@krixi.com # optional
