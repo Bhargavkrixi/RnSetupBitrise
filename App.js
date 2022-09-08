@@ -73,7 +73,7 @@ const App: () => Node = () => {
           <Section title="Step One">
             React Native <Text style={styles.highlight}>Bitrise</Text> Seup.
           </Section>
-          <Section title="See Your Changess">
+          <Section title="See Your Changessss">
             <ReloadInstructions />
           </Section>
           <Section title="Debug">
