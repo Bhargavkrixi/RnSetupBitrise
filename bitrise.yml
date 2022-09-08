@@ -5,7 +5,7 @@
 - sign-apk@1: {}
 - firebase-app-distribution@0:
     inputs:
-    - firebase_token: 1//0gU-pZkYB1v2NCgYIARAAGBASNwF-L9IrqvvnaT3G3e74ttsMJ9GH7mqcPOv3d0IoM2yhCfuDYIHfh5Fs3O3VRvotWu_6C2DITEQ
+    - firebase_token: $FirebaseKey
     - app_path: $BITRISE_DEPLOY_DIR/app-release-bitrise-signed.apk
     - app: 1:327211328386:android:48674b0ef0bd7d6786659b
     - testers: bhargav.simejiya@krixi.com # optional
