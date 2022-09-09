@@ -25,9 +25,11 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {isIphoneX} from 'react-native-iphone-x-helper';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
+  console.log(isIphoneX());
   return (
     <View style={styles.sectionContainer}>
       <Text
